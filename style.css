@@ -162,6 +162,10 @@ body{
     .main-projacts{
         grid-template-columns:1fr 1fr;
     }
+    .batton-see-more{
+            
+        margin-left:550px;
+ }
     .calander{
         height: 450px;
         width:600px;
@@ -205,6 +209,10 @@ body{
     .main-projacts{
                 grid-template-columns:1fr;
          }
+    .batton-see-more{
+            
+            margin-left:200px;
+     }
 
     .calander{
             height: 300px;
