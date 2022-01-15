@@ -8,8 +8,18 @@ body{
      max-width: 1200px;
      margin: 0 auto;
      padding: 0 30px;
+     background-color: white;
    
  }
+ 
+
+ /* fast-container */
+.influrncer{
+    font-weight:bold ;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-left: 35px;
+}
 .fast-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -18,8 +28,16 @@ body{
 .main-box{
     padding-top: 150px;
 }
+.main-box h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.main-box p{
+    font-weight: bold;
+    font-size: 15px;
+}
 .main-img img{
-    height: 100%;
+    height: 80%;
 }
 .batton{
     width: 200px;
@@ -87,6 +105,7 @@ body{
     font-size: 20px;
     color: rgb(78, 25, 202);
     font-family: 700px;
+    margin-top: 100px;
 }
 .calander{
     background-color: rgb(224, 194, 224);
@@ -125,6 +144,92 @@ body{
      font-size: 30px;
      color: white;
 }
+/* respondive css */
+@media (max-width:900px){
+    .fast-container{
+        grid-template-columns: 1fr;
+         
+    }
+    .main-box h1{
+        font-size: 40px;
+    }
+    .main-box p{
+        font-size: 10px;
+    }
+    .main-img img{
+        height: 70%;
+    }
+    .main-projacts{
+        grid-template-columns:1fr 1fr;
+    }
+    .calander{
+        height: 450px;
+        width:900px;
+    }
+    .list ,.day{
+        font-size: 2em;
+    }
+
+    .fotter{
+        height: 170px;
+       width: 810px; 
+    }
+    .projacts{
+        width:200px;
+        box-shadow: 0px 0px 3px 3px rgb(53, 166, 231);
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .projacts img{
+       width:200px;
+    }
+
+}
+@media (max-width:500px){
+    .fast-container{
+        grid-template-columns: 1fr;
+         
+    }
+    .main-box h1{
+        font-size: 30px;
+    }
+    .main-box p{
+            font-size: 10px;
+            
+        }
+    .main-img img{
+            height: 50%;}
+
+
+    .main-projacts{
+                grid-template-columns:1fr;
+         }
+
+    .calander{
+            height: 300px;
+             width:450px;
+    }
+    .list ,.day{
+         font-size: 1em;
+    }
+    .fotter{
+         height: 170px;
+        width: 480px; 
+     }
+    .projacts{
+                width:150px;
+                box-shadow: 0px 0px 1px 1px rgb(53, 166, 231);
+                padding: 10px;
+                margin-top: 20px;
+                margin-left: 30px;
+     }
+     .projacts img{
+               width:150px;
+     }
+
+        }
+        
 
  
  
