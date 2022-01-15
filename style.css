@@ -1,0 +1,130 @@
+/* fornt css */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white; 
+}
+/* fornt css end */
+ .container{
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0 30px;
+   
+ }
+.fast-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+}
+.main-box{
+    padding-top: 150px;
+}
+.main-img img{
+    height: 100%;
+}
+.batton{
+    width: 200px;
+    height: 100px;
+    padding: 50px;
+}
+ .batton a{
+        color:white;
+        background-color: #E02C6D;;
+       
+        font-size:16px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow:0 4px 0  #a00c42 ;
+        position: relative;
+        top: 0;
+}
+     
+.batton a:active{
+        top: 2px;
+        box-shadow:0 2px 0  #a00c42;
+}
+/* batton css */
+.batton-see-more{
+    margin-top: 20px;
+    display: grid;
+    margin-left:1020px;
+}
+.batton-see-more a{
+      text-decoration: none;
+      color: rgb(241, 40, 40);
+      font-size: 20px;
+      padding: 5px;
+}
+.batton-see-more i{
+    color: #000;
+}
+/* 2nd part css */
+.header{
+    text-align: center;
+}
+.main-projacts{
+    display: grid;
+    gap: 20px;
+    grid-template-columns:repeat(3,1fr);
+}
+.projacts{
+    width:300px;
+    box-shadow: 0px 0px 5px 5px rgb(53, 166, 231);
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.projacts img{
+   width:300px;
+}
+.star{
+    color: tomato;
+}
+/* calander css */
+.calander-toper{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(78, 25, 202);
+    font-family: 700px;
+}
+.calander{
+    background-color: rgb(224, 194, 224);
+}
+.list ,.day{
+    background-color: rgb(243, 93, 193);
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.date{
+    background-color: darkorange;
+    height: 50px;
+}
+.change{
+    background-color: rgb(38, 86, 190);
+}
+.calander-list{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1em;
+}
+
+
+/* footer css */
+.fotter{
+    color: white; 
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #0e0d0d;
+}
+.footer-style{
+     font-size: 30px;
+     color: white;
+}
+
+ 
+ 
