@@ -40,9 +40,9 @@ body{
     height: 80%;
 }
 .batton{
-    width: 200px;
-    height: 100px;
-    padding: 50px;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
 }
  .batton a{
         color:white;
@@ -76,6 +76,9 @@ body{
 }
 .batton-see-more i{
     color: #000;
+}
+.baton-icon i{
+    color: red;
 }
 /* 2nd part css */
 .header{
@@ -164,7 +167,7 @@ body{
     }
     .calander{
         height: 450px;
-        width:900px;
+        width:600px;
     }
     .list ,.day{
         font-size: 2em;
@@ -172,17 +175,17 @@ body{
 
     .fotter{
         height: 170px;
-       width: 810px; 
+       width: 500px; 
     }
     .projacts{
-        width:200px;
+        width:270px;
         box-shadow: 0px 0px 3px 3px rgb(53, 166, 231);
         padding: 10px;
         margin-top: 20px;
         margin-left: 30px;
     }
     .projacts img{
-       width:200px;
+       width:270px;
     }
 
 }
@@ -208,24 +211,24 @@ body{
 
     .calander{
             height: 300px;
-             width:450px;
+             width:400px;
     }
     .list ,.day{
          font-size: 1em;
     }
     .fotter{
          height: 170px;
-        width: 480px; 
+        width: 400px; 
      }
     .projacts{
-                width:200px;
+                width:250px;
                 box-shadow: 0px 0px 1px 1px rgb(53, 166, 231);
                 padding: 10px;
                 margin-top: 20px;
                 margin-left: 30px;
      }
      .projacts img{
-               width:200px;
+               width:250px;
      }
 
         }
