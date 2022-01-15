@@ -39,11 +39,7 @@ body{
 .main-img img{
     height: 80%;
 }
-.batton{
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-}
+
  .batton a{
         color:white;
         background-color: #E02C6D;;
